@@ -1,5 +1,7 @@
 from typing import Optional
 
+def test_foo():
+    ...
 
 def code(arg: Optional[bool]) -> str:
     assert arg == arg
